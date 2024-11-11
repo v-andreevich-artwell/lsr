@@ -1,0 +1,30 @@
+#apartmentList .apartment h3 > span {
+  font-size: 60%;
+}
+
+#apartmentList .apartment h3 > span.for_sale {
+  color: green;
+}
+
+#apartmentList .apartment h3 > span.not_for_sale {
+  color: red;
+}
+
+#apartmentList .apartment {
+    border-bottom: 1px solid #dcdcdc;
+    padding-bottom: 30px;
+}
+
+#apartmentList .apartment:last-child {
+  border-bottom: 0px solid #dcdcdc;
+}
+
+#filterForm {
+    border-bottom: 1px solid #dcdcdc;
+    padding-bottom: 20px;
+}
+
+#apartmentList .apartment .old_price {
+    font-size: 65%;
+    text-decoration: line-through;
+}
